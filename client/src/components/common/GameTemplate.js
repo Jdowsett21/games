@@ -8,6 +8,7 @@ function GameTemplate({ location }) {
     .charAt(1)
     .toUpperCase()}${location.pathname.slice(2)}`;
 
+  console.log(game);
   return (
     <div>
       {findOneGame(game).map((g) => (

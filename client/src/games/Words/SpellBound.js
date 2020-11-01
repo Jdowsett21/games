@@ -1,9 +1,10 @@
 import React from 'react';
+import GameTemplate from '../../components/common/GameTemplate';
 
 function SpellBound(props) {
   return (
     <div>
-      <h1>SpellBound</h1>
+      <GameTemplate />
     </div>
   );
 }
